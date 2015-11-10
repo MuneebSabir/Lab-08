@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.body {
+  height:100%; width:100%;
+}
+
+.main {
+  height:100%; width:100%;
+  display: block;
+}
+
+#elements {
+  height:100%; width:100%;
+  display: block;
+}
+
+#form {
+  display: block;
+}
+
+#buttons {
+  display:"flex";
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+	
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 15px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: skyblue;
+  color: red;
+  text-decoration: none;
+}
+/* CSS Document */
+
